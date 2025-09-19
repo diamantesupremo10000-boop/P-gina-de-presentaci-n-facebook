@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>¿Sabías que puedes tener más clientes?</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo">f</div>
+      <div class="brand-text">Tu Negocio</div>
+    </div>
+    <button id="menuBtn" class="menu-btn" aria-label="Abrir menú">☰</button>
+  </header>
+
+  <nav id="overlayNav" class="overlay-nav" aria-hidden="true">
+    <button id="closeNav" class="close-nav">✕</button>
+    <ul>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#beneficios">Beneficios</a></li>
+      <li><a href="#testimonios">Testimonios</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <section class="hero">
+      <h1>¿Sabías que puedes tener más clientes?</h1>
+      <p class="lead">Landing rápida estilo Facebook — enfocada en móviles — muestra tu servicio y consigue mensajes por WhatsApp.</p>
+      <a class="btn whatsapp-btn" id="whatsappLink" href="https://wa.me/529131096378?text=Hola,%20quiero%20más%20info" rel="noopener noreferrer">Enviar mensaje por WhatsApp</a>
+    </section>
+
+    <section id="beneficios" class="card">
+      <h2>¿Qué ofrecemos?</h2>
+      <ul class="features">
+        <li>Landing optimizada para móvil</li>
+        <li>Mensaje directo a tu WhatsApp</li>
+        <li>Diseño familiar tipo Facebook</li>
+      </ul>
+    </section>
+
+    <section id="testimonios" class="card small">
+      <h3>Testimonios</h3>
+      <p>"En 2 semanas aumenté mis consultas" — Cliente feliz</p>
+    </section>
+
+    <section id="contacto" class="card small">
+      <h3>Contacto</h3>
+      <p>¿Listo para empezar? Presiona el botón de WhatsApp arriba o guarda nuestro número: <strong>+52 913 109 6378</strong></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small>© <span id="year"></span> Tu Negocio • Hecho para móvil</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
